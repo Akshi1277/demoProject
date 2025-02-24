@@ -55,7 +55,7 @@ const AdminLogin = () => {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="bg-[#241246] p-8 rounded-xl shadow-lg w-full max-w-md"
         >
-          <h1 className="text-3xl font-semibold text-red-300 text-center mb-6">Admn Login</h1>
+          <h1 className="text-3xl font-semibold text-red-300 text-center mb-6">Admin Login</h1>
           {error && (
             <p className="text-[#F34213] bg-red-900 bg-opacity-30 p-2 rounded text-center mb-4 animate-pulse">
               {error}
